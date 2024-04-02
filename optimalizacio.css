@@ -1,0 +1,558 @@
+@media only screen and (max-width: 748px) {
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+p{
+    font-size: 1rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300px;
+    letter-spacing: .05rem;
+    color: black;
+}
+
+.brand h1{
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;  
+}
+
+/* Hero Section */
+#hero {
+    background-image: url(img/hatter.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+#hero::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: .05;
+    z-index: -1;
+}
+
+#hero .hero{
+    max-width: 1200px;
+    margin: -10 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
+
+#hero h1{
+    display: block;
+    width: fit-content;
+    position: relative;
+    color: transparent;
+    animation: text_reveal .5s ease forwards;
+    animation-delay: 1s;
+    font-size: 2.5em;
+}
+
+/*Services section */
+
+#services{
+background-color: #ebd8c1;
+
+}
+
+#services .services{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#services .section-title {
+    font-size: 4rem;
+    font-weight: 500;
+    color: Black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+
+}
+
+#services .service-top p{
+    font-size: 1.1rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300px;
+    letter-spacing: .05rem;
+    color: black;
+    text-align: center;
+}
+
+#services .service-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#services .service-top{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    font-size: 1.2em;
+}
+
+#services .service-top h1{
+   font-size: 1.2em;
+}
+
+
+
+.service-item1:hover{
+    filter: brightness(80%);
+}
+.service-item2:hover{
+    filter: brightness(80%);
+}
+.service-item3:hover{
+    filter: brightness(80%);
+}
+.service-item4:hover{
+    filter: brightness(80%);
+}
+.service-item5:hover{
+    filter: brightness(80%);
+}
+.service-item6:hover{
+    filter: brightness(80%);
+}
+.service-item7:hover{
+    filter: brightness(80%);
+}
+.service-item8:hover{
+    filter: brightness(80%);
+}
+.service-item9:hover{
+    filter: brightness(80%);
+}
+.service-item10:hover{
+    filter: brightness(80%);
+}
+.service-item11:hover{
+    filter: brightness(80%);
+}
+.service-item12:hover{
+    filter: brightness(80%);
+}
+
+
+#services .service-item1::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 10%;
+}
+
+#services .service-item2::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#services .service-item3::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#services .service-item4::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#services .service-item5::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#services .service-item6::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#services .service-item7::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#services .service-item8::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#services .service-item9::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#services .service-item10::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#services .service-item11::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#services .service-item12::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+#services .service-item1 h2{
+    font-size: 2rem;
+    color: White;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#services .service-item2 h2{
+    font-size: 2rem;
+    color: White;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#services .service-item3 h2{
+    font-size: 2rem;
+    color: White;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#services .service-item4 h2{
+    font-size: 2rem;
+    color: White;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#services .service-item5 h2{
+    font-size: 2rem;
+    color: White;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#services .service-item6 h2{
+    font-size: 2rem;
+    color: White;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#services .service-item7 h2{
+    font-size: 2rem;
+    color: White;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+#services .service-item8 h2{
+    font-size: 2rem;
+    color: White;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#services .service-item9 h2{
+    font-size: 2rem;
+    color: White;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#services .service-item10 h2{
+    font-size: 2rem;
+    color: White;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#services .service-item11 h2{
+    font-size: 2rem;
+    color: White;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#services .service-item12 h2{
+    font-size: 2rem;
+    color: White;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/*End of service section*/
+
+/*AbooutMe*/
+#about{
+    background-color: #ebd8c1;
+
+}
+
+#about .about{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+
+#about .col-left{
+    width: 250px;
+    height: 360px;
+}
+
+#about .col-right{
+    width: 100%
+}
+
+#about .col-right h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+}
+
+#about .col-right p{
+    margin-bottom: 20px;
+}
+
+#about .col-right .cta{
+    color: black;
+    margin-bottom: 0%;
+    padding: 10px 20px;
+    font-size: 2rem;
+    margin-top: 5%;
+}
+
+#about .col-left .about-img {
+    height: 105%;
+    width: 105%;
+    position: relative;
+    border: 10px solid white; 
+    z-index: 1;
+
+}
+
+#about .col-left .about-img::after{
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 19px;
+    height: 98%;
+    width: 98%;
+    border: 7px solid #946c3d;
+    z-index: -1;
+
+}
+/*contact*/
+#contact{
+    background-color: #ebd8c1;
+}
+
+#contact .contact{
+    flex-direction: column;
+    max-width: 748px;
+    margin: 0 auto ;
+
+}
+
+#contact .contact-items{
+    width: 400px;                                               
+}
+
+#contact .icon{
+    width: 70px;
+    margin: 0 auto;
+    margin: 10px;
+}
+
+#contact .contact-info h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+#contact .contact-info h2{
+    font-size: 1rem;
+    height: 2rem;
+    font-weight: 500;
+}
+
+/*End Of Contact*/
+/*EndOfAboutMe*/
+
+/* Footer */
+
+#footer{
+    background-image: linear-gradient(45deg, #946c3d 100% , #e1e1e1 100%);
+}
+
+#footer .footer{
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#footer h2{
+    color: white;
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+#footer p{
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+/* End Of Footer */
+
+
