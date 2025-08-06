@@ -469,22 +469,6 @@ background-color: #ebd8c1;
     width: 300px;
 }
 
-#services .service-item3{
-    flex-basis: 80%;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px;
-    border-radius: 10px;
-    background-image: url(img/fineart.jpg);
-    background-size: cover;
-    margin: 10px 5%;
-    position: relative;
-    height: 250px;
-    width: 300px;
-}
-
 #services .service-item4{
     flex-basis: 80%;
     display: flex;
@@ -517,21 +501,6 @@ background-color: #ebd8c1;
     width: 300px;
 }
 
-#services .service-item6{
-    flex-basis: 80%;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px;
-    border-radius: 10px;
-    background-image: url(img/csecsemo.jpg);
-    background-size: cover;
-    margin: 10px 5%;
-    position: relative;
-    height: 250px;
-    width: 300px;
-}
 
 #services .service-item7{
     flex-basis: 80%;
@@ -597,21 +566,6 @@ background-color: #ebd8c1;
     width: 300px;
 }
 
-#services .service-item11{
-    flex-basis: 80%;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px;
-    border-radius: 10px;
-    background-image: url(img/kompozit.jpg);
-    background-size: cover;
-    margin: 10px 5%;
-    position: relative;
-    height: 250px;
-    width: 300px;
-}
 
 #services .service-item12{
     flex-basis: 80%;
